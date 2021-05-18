@@ -1,19 +1,48 @@
 header {
-  background: lightblue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: pink;
+  height: 100vh;
+  color: #2b2b2b;
 }
 
 header button {
   background-color: #ec7a1d;
 }
 
-.contact button{
-  background-color: #ec7a1d;
-  color:red;
+header button:hover {
+  background-color: red;
+}
+
+header button::after {
+  content: "hello guys";
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: green;
 }
 /*# sourceMappingURL=style.css.map */
