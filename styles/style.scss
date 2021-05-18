@@ -1,5 +1,5 @@
 @import './header';
 @import './variables';
 .contact  {
-    @include flexCenter(row,green);
+    @extend header;
 }
